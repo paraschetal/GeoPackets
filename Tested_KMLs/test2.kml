@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document>
+<Placemark>
+<name>216.58.196.97(Mountain View, United States)</name>
+<Point>
+<coordinates>-122.057400,37.419200</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>23.42.27.27(Amsterdam, Netherlands)</name>
+<Point>
+<coordinates>4.916700,52.350000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>216.58.196.110(Mountain View, United States)</name>
+<Point>
+<coordinates>-122.057400,37.419200</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>216.58.197.35(Mountain View, United States)</name>
+<Point>
+<coordinates>-122.057400,37.419200</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>54.235.146.142(Ashburn, United States)</name>
+<Point>
+<coordinates>-77.483800,39.033500</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>68.232.35.121(Santa Monica, United States)</name>
+<Point>
+<coordinates>-118.468200,34.011900</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>216.58.197.46(Mountain View, United States)</name>
+<Point>
+<coordinates>-122.057400,37.419200</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>104.16.36.249(San Francisco, United States)</name>
+<Point>
+<coordinates>-122.393300,37.769700</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>104.236.169.87(San Francisco, United States)</name>
+<Point>
+<coordinates>-122.419400,37.774900</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>216.58.197.42(Mountain View, United States)</name>
+<Point>
+<coordinates>-122.057400,37.419200</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>173.252.120.6(Menlo Park, United States)</name>
+<Point>
+<coordinates>-122.178100,37.459000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>216.58.196.97(Mountain View, United States)</name>
+<Point>
+<coordinates>-122.057400,37.419200</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>23.42.27.27(Amsterdam, Netherlands)</name>
+<Point>
+<coordinates>4.916700,52.350000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>216.58.196.110(Mountain View, United States)</name>
+<Point>
+<coordinates>-122.057400,37.419200</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>216.58.197.35(Mountain View, United States)</name>
+<Point>
+<coordinates>-122.057400,37.419200</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>54.235.146.142(Ashburn, United States)</name>
+<Point>
+<coordinates>-77.483800,39.033500</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>68.232.35.121(Santa Monica, United States)</name>
+<Point>
+<coordinates>-118.468200,34.011900</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>216.58.197.46(Mountain View, United States)</name>
+<Point>
+<coordinates>-122.057400,37.419200</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>104.236.169.87(San Francisco, United States)</name>
+<Point>
+<coordinates>-122.419400,37.774900</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>104.16.36.249(San Francisco, United States)</name>
+<Point>
+<coordinates>-122.393300,37.769700</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>216.58.197.42(Mountain View, United States)</name>
+<Point>
+<coordinates>-122.057400,37.419200</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>173.252.120.6(Menlo Park, United States)</name>
+<Point>
+<coordinates>-122.178100,37.459000</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

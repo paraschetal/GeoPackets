@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document>
+<Placemark>
+<name>74.125.19.17(Morganton, United States)</name>
+<Point>
+<coordinates>-81.684800,35.745400</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>216.34.181.45(Chesterfield, United States)</name>
+<Point>
+<coordinates>-90.533400,38.650000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>96.17.211.172(Cambridge, United States)</name>
+<Point>
+<coordinates>-71.084300,42.362600</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>74.125.19.17(Morganton, United States)</name>
+<Point>
+<coordinates>-81.684800,35.745400</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>216.34.181.45(Chesterfield, United States)</name>
+<Point>
+<coordinates>-90.533400,38.650000</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>96.17.211.172(Cambridge, United States)</name>
+<Point>
+<coordinates>-71.084300,42.362600</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

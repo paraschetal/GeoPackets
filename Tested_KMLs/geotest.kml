@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0"> <Document>
+<Placemark>
+<name>153.117.22.211(Wichita, United States)</name>
+<Point>
+<coordinates>-97.278200,37.752100</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>1.103.102.104(Seongnam, Korea, Republic of)</name>
+<Point>
+<coordinates>127.137800,37.438600</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>166.123.95.157(Washington, United States)</name>
+<Point>
+<coordinates>-77.041700,38.897900</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
