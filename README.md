@@ -1,5 +1,5 @@
 # GeoPackets
->A script that takes a pcap file as input and plots the source and destination of the data packets on a KML file which can be then opened by Google Earth/Maps.
+>A script that takes a pcap(packet capture) file as input and plots the source and destination of the data packets on a KML file which can be then opened by Google Earth/Maps.
 
 ## Requirements:
 * GeoCityLite database which is an open-source database from MaxMind, Inc. This database correlates registered IP addresses to physical locations. It can be downloaded from [here](http://dev.maxmind.com/geoip/legacy/geolite/). After downloading, uncompress the GeoLiteCity.dat.gz file and move it to the location /opt/GeoIp/Geo.dat
