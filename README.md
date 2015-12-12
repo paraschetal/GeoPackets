@@ -2,7 +2,7 @@
 >A script that takes a pcap(packet capture) file as input and plots the source and destination of the data packets on a KML file which can be then opened by Google Earth/Maps.
 
 ## Setup:
-* ``` $ sudo python setup.py
+* ``` $ sudo python setup.py ```
 * Installs all dependencies
 
 ## Dependencies (Covered in Setup):
