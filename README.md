@@ -19,10 +19,10 @@
 * The KML file gets saved in the current working directory. This file can now be opened by Google Earth and the various source and destination points of the data packets can be seen.
 
 ## Screenshots:
-![Screenshot1](http://s20.postimg.org/as265jj1p/Selection_018.png)
-![Screenshot2](http://s20.postimg.org/ae0u5xyy4/Selection_015.jpg)
-![Screenshot3](http://s20.postimg.org/6gdkgjc4s/Selection_016.jpg)
-![Screenshot4](http://s20.postimg.org/vl4ktybl8/Selection_017.jpg)
+![Screenshot1](/Tested_KMLs/Screenshots/Selection_018.png? raw=true)
+![Screenshot2](/Tested_KMLs/Screenshots/Selection_019.png? raw=true)
+![Screenshot3](/Tested_KMLs/Screenshots/Selection_016.png? raw=true)
+![Screenshot4](/Tested_KMLs/Screenshots/Selection_017.png? raw=true)
 
 
 
