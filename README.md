@@ -6,7 +6,7 @@
 * [pygeoip](https://github.com/appliedsec/pygeoip) library for python which queries the GeoLiteCity database and can be installed using:``` [sudo] pip install pygeoip ```
 * [dpkt](https://github.com/kbandla/dpkt) library for python which analyzes data packets. It can be installed using :``` [sudo] pip install dpkt ```
 
-## TODOs:
+## ToDOs:
 * If the source has an Unregistered IP, then mark the current location of the computer.
 * Plot lines in the kml file joining source to desination(with arrowheads)
 * Make installation procedure a bit easier.
@@ -20,9 +20,10 @@
 
 ## Screenshots:
 ![Screenshot1](/Tested_KMLs/Screenshots/Selection_018.png? raw=true)
-![Screenshot2](/Tested_KMLs/Screenshots/Selection_019.png? raw=true)
+![Screenshot2](/Tested_KMLs/Screenshots/Selection_015.png? raw=true)
 ![Screenshot3](/Tested_KMLs/Screenshots/Selection_016.png? raw=true)
 ![Screenshot4](/Tested_KMLs/Screenshots/Selection_017.png? raw=true)
+![Screenshot5](/Tested_KMLs/Screenshots/Selection_019.png? raw=true)
 
 
 
