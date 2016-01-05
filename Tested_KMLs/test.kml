@@ -1,40 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.0"> <Document>
 <Placemark>
-<name>74.125.19.17(Morganton, United States)</name>
+<name>74.125.19.17</name>
 <Point>
 <coordinates>-81.684800,35.745400</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>216.34.181.45(Chesterfield, United States)</name>
+<name>216.34.181.45</name>
 <Point>
 <coordinates>-90.533400,38.650000</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>96.17.211.172(Cambridge, United States)</name>
+<name>96.17.211.172</name>
 <Point>
 <coordinates>-71.084300,42.362600</coordinates>
 </Point>
 </Placemark>
 <Placemark>
-<name>74.125.19.17(Morganton, United States)</name>
-<Point>
-<coordinates>-81.684800,35.745400</coordinates>
-</Point>
+<name></name>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>
+-81.6848,35.7454,0 -90.5334,38.65,0.
+</coordinates>
+</LineString>
+<Style>
+<LineStyle>
+<width>1</width>
+<color>#ff0000ff</color>
+</LineStyle>
+</Style>
 </Placemark>
 <Placemark>
-<name>216.34.181.45(Chesterfield, United States)</name>
-<Point>
-<coordinates>-90.533400,38.650000</coordinates>
-</Point>
+<name></name>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>
+-81.6848,35.7454,0 -71.0843,42.3626,0.
+</coordinates>
+</LineString>
+<Style>
+<LineStyle>
+<width>1</width>
+<color>#ff0000ff</color>
+</LineStyle>
+</Style>
 </Placemark>
 <Placemark>
-<name>96.17.211.172(Cambridge, United States)</name>
-<Point>
-<coordinates>-71.084300,42.362600</coordinates>
-</Point>
+<name></name>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>
+-90.5334,38.65,0 -81.6848,35.7454,0.
+</coordinates>
+</LineString>
+<Style>
+<LineStyle>
+<width>1</width>
+<color>#ff0000ff</color>
+</LineStyle>
+</Style>
+</Placemark>
+<Placemark>
+<name></name>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>
+-90.5334,38.65,0 -71.0843,42.3626,0.
+</coordinates>
+</LineString>
+<Style>
+<LineStyle>
+<width>1</width>
+<color>#ff0000ff</color>
+</LineStyle>
+</Style>
+</Placemark>
+<Placemark>
+<name></name>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>
+-71.0843,42.3626,0 -81.6848,35.7454,0.
+</coordinates>
+</LineString>
+<Style>
+<LineStyle>
+<width>1</width>
+<color>#ff0000ff</color>
+</LineStyle>
+</Style>
+</Placemark>
+<Placemark>
+<name></name>
+<LineString>
+<tessellate>1</tessellate>
+<coordinates>
+-71.0843,42.3626,0 -90.5334,38.65,0.
+</coordinates>
+</LineString>
+<Style>
+<LineStyle>
+<width>1</width>
+<color>#ff0000ff</color>
+</LineStyle>
+</Style>
 </Placemark>
 </Document>
 </kml>
