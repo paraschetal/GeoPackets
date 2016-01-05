@@ -11,8 +11,7 @@
 * [dpkt](https://github.com/kbandla/dpkt) library for python which analyzes data packets. It can be installed using :``` [sudo] pip install dpkt ```
 
 ## TODOs:
-* If the source has an Unregistered IP, then mark the current location of the computer.
-* Plot lines in the kml file joining source to desination(with arrowheads)
+* ~~Plot lines in the kml file.~~
 * ~~Make installation procedure a bit easier.~~
 
 
