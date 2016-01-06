@@ -1,6 +1,8 @@
 import dpkt, socket, pygeoip, optparse
 
 gi = pygeoip.GeoIP('/opt/GeoIP/Geo.dat')
+
+
 def retKML(ip):
 	rec=gi.record_by_name(ip)
 	try:
@@ -14,10 +16,12 @@ def retKML(ip):
 			'</Point>\n'	
 			'</Placemark>\n'
 			)%(ip,longitude,latitude)
-		# print ip
+		
 		return kml
 	except :
 		return ''
+
+
 def drawLines(srcORdstList):
 	linePoints=[]
 	count=0
@@ -35,17 +39,14 @@ def drawLines(srcORdstList):
 				lon2=rec2['longitude']
 				
 				linePoint=str(lon1)+','+str(lat1)+','+str(0)+" "+str(lon2)+","+str(lat2)+",0."+'\n'
-				# print linePoint+' '+i+' to '+j
 				linePoints.append(linePoint)
-				# count+=1
 			except Exception,e:
 				pass
+	
 	kml=''
-	# print len(linePoints)		
-	# print count			
-	# kml=('')
+	
 	for i in linePoints:
-		# print i
+		
 		kml+=(
 			'<Placemark>\n'
 			'<name></name>\n'
@@ -67,7 +68,9 @@ def drawLines(srcORdstList):
 			'</Style>\n'
 			'</Placemark>\n'
 		)				
-	return(kml)			
+	return(kml)		
+
+
 def plotIPs(pcap):
 	kmlPts=''
 	srcList=[]
@@ -82,29 +85,20 @@ def plotIPs(pcap):
 			rec=gi.record_by_name(src)
 			if src not in srcORdstList and rec['latitude']!=None:
 				srcORdstList.append(src)
-			# if src not in srcList:
-			# 	srcList.append(src)
 			dst=socket.inet_ntoa(ip.dst)
 			rec=gi.record_by_name(dst)
 			if dst not in srcORdstList and rec['latitude']!=None:
 				srcORdstList.append(dst)
-			# if dst not in dstList:
-			# 	dstList.append(dst)
-
 		except:
 			pass
 	for node in srcORdstList:
-		# print node
 		kmlPts=kmlPts+retKML(node)
-	# my_ip = urllib2.urlopen('http://ip.42.pl/raw').read()
 	kmlMap=kmlPts+drawLines(srcORdstList)
 	for i in srcORdstList:
 		rec=gi.record_by_name(i)
-		# try:
-		# 	print rec['city']+rec['country_name']
-		# except:
-		# 	print i	
 	return kmlMap
+
+
 def main():
 	parser=optparse.OptionParser('usage%prog -p ,pcap file.')
 	parser.add_option('-p', dest='pcapFile' ,type='string', help='specify pcap filename')
@@ -122,6 +116,7 @@ def main():
 	kmlFile=open(pcapFile+'.kml', 'w+')
 	kmlFile.write(kmldoc)
 	kmlFile.close()
+
 
 if __name__=='__main__':
 	main()
