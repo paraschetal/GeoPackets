@@ -19,7 +19,7 @@
 
 * ``` $ python GeoPackets.py -p <pcap file location> ```
 
-* The KML file gets saved in the current working directory. This file can now be opened by Google Earth and the various source and destination points of the data packets can be seen.
+* The KML file gets saved in the current working directory. This file can now be opened by Google Earth and the various source and destination points of the data packets, and the web can be seen.
 
 ## Screenshots:
 ![Screenshot1](/Tested_KMLs/Screenshots/Screenshot1.png? raw=true)
