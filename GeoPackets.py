@@ -3,7 +3,7 @@ import dpkt, socket, pygeoip, optparse
 gi = pygeoip.GeoIP('/opt/GeoIP/Geo.dat')
 
 
-def retKML(ip):
+def retKML(ip):		#Plots each point on the kml file
 	rec=gi.record_by_name(ip)
 	try:
 		latitude=rec['latitude']
@@ -22,7 +22,7 @@ def retKML(ip):
 		return ''
 
 
-def drawLines(srcORdstList):
+def drawLines(srcORdstList):	#Joins all the points among themselves with red color path representing the web
 	linePoints=[]
 	count=0
 	for i in srcORdstList:
@@ -71,7 +71,7 @@ def drawLines(srcORdstList):
 	return(kml)		
 
 
-def plotIPs(pcap):
+def plotIPs(pcap):		#parses the pcap file to get all IP addresses and calls the retKML and the drawLine function to plot the kml file
 	kmlPts=''
 	srcList=[]
 	dstList=[]
